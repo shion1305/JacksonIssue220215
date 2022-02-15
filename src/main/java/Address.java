@@ -1,4 +1,7 @@
 public class Address {
+    public Address() {
+    }
+
     public String getStreet() {
         return street;
     }

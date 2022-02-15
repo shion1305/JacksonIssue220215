@@ -7,6 +7,9 @@ public class Employee {
     private List<String> skilltree;
     private Address address;
 
+    public Employee() {
+    }
+
     public Employee(String name, POSITION position, List<String> skilltree, Address address) {
         this.name = name;
         this.position = position;
